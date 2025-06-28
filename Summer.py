@@ -6,6 +6,7 @@ from langchain_community.chat_models import ChatOpenAI
 import requests
 import os
 import streamlit as st
+import torch
 # from bark import generate_audio, preload_models
 # from scipy.io.wavfile import write as write_wav
 # import numpy as np
