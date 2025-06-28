@@ -4,3 +4,5 @@ transformers
 requests
 langchain
 openai
+langchain-community
+langchain-core
