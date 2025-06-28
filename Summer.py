@@ -96,7 +96,7 @@ def main():
         bytes_data = uploaded_file.getvalue()
         with open(uploaded_file.name, "wb") as file:
             file.write(bytes_data)
-        st.image(uploaded_file, caption='Uploaded Image.', use_column_width=True)
+        st.image(uploaded_file, caption='Uploaded Image.', use_container_width=True)
 
         scenario = img2text(uploaded_file.name)
         story = generate_story(scenario)
