@@ -3,7 +3,7 @@ python-dotenv
 transformers
 requests
 openai
-torch==2.1.0+cpu
+torch
 langchain
 langchain-core
 langchain-community
